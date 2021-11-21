@@ -1,0 +1,45 @@
+.artNow{
+    padding: 10px;
+    display: flex;
+}
+
+.artNow img{
+    width:15em;
+}
+/* datas style */
+.datos{
+    padding: 5px;
+}
+
+
+
+/* btn art style */
+.btnArt{
+    padding: 10px;
+    background-color: #000000;
+    border: 1px solid #dde0df;
+}
+
+.btnArt a{
+    color: #dde0df;
+}
+
+.btnArt:hover{
+    opacity: 0.8;
+}
+
+/* style mobil */
+@media(max-width:700px){
+  .artNow img{
+      width: 10em;
+  }
+}
+
+@media(max-width:500px){
+    .artNow{
+      flex-direction: column;
+    }
+   .artNow img{
+       width: 10em;
+   }
+}

@@ -1,0 +1,52 @@
+.one{
+    width:25%;
+    margin: 10px 20%;
+}
+.threeImg{
+    display: flex;
+}
+
+.twoImg{
+    display: flex;
+    position: relative;
+    left:20%;
+}
+
+.twoImg img{
+    width:30%;
+    margin:0 10px;
+}
+
+.form{
+    margin-top:20px;
+}
+
+
+
+@media(max-width:700px){
+  .one{
+      width: 60%;
+  }
+  .threeImg{
+    flex-direction: column;
+    margin:10px 0 30px;
+  }
+
+}
+
+@media(max-width:500px){
+    .one{
+      width: 80%;
+      margin: 0 10px;
+    }
+    .twoImg{
+        flex-direction: column;
+        left: 1%;
+    }
+
+    .twoImg img{
+        width:99%;
+        margin:0;
+    }
+   
+}

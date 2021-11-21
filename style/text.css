@@ -1,0 +1,17 @@
+.conText{
+    margin:auto 20px;
+    padding: 20px;
+    color: #1e1f1f;
+    background-color: #f0ede9;
+}
+
+.conText p{
+    margin-top: 2%;
+}
+
+
+@media(max-width:500px){
+    .conText{
+        margin: auto 0;
+    }
+}
