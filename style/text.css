@@ -1,3 +1,4 @@
+/* style del contenedor del texto */
 .conText{
     margin:auto 20px;
     padding: 20px;
@@ -9,9 +10,28 @@
     margin-top: 2%;
 }
 
+/* style de la fuentes */
+.fuentes{
+    padding:20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.fuentes ul{
+    margin-top:10px;
+    list-style: none;
+}
+
+.fuentes ul li a{
+  color: #021a47;
+}
+
 
 @media(max-width:500px){
     .conText{
         margin: auto 0;
+    }
+    .conText p{
+        font-size:20px;
     }
 }
